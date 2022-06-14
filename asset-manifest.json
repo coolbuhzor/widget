@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "https://coolbuhzor.github.io/example-payment-widget/js/main.js",
-    "main.js.map": "https://coolbuhzor.github.io/example-payment-widget/js/main.js.map",
-    "index.html": "https://coolbuhzor.github.io/example-payment-widget/index.html",
-    "js/main.js.LICENSE.txt": "https://coolbuhzor.github.io/example-payment-widget/js/main.js.LICENSE.txt"
+    "main.js": "https://coolbuhzor.github.io/widget/js/main.js",
+    "main.js.map": "https://coolbuhzor.github.io/widget/js/main.js.map",
+    "index.html": "https://coolbuhzor.github.io/widget/index.html",
+    "js/main.js.LICENSE.txt": "https://coolbuhzor.github.io/widget/js/main.js.LICENSE.txt"
   },
   "entrypoints": [
     "js/main.js"
