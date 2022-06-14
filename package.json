@@ -1,18 +1,27 @@
 {
-  "name": "@js-widgets/example-widget",
+  "name": "@js-widgets/example-payment-widget",
   "private": false,
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://js-widgets.github.io/example-widget",
+  "homepage": "https://js-widgets.github.io/example-payment-widget",
   "dependencies": {
     "postcss-wrap": "^0.0.4",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-intl": "^5.10.6",
-    "react-intl-translations-manager": "^5.0.3"
+    "react-intl-translations-manager": "^5.0.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "axios": "^0.27.2",
+    "formik": "^2.2.9",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "craco start",
@@ -41,7 +50,6 @@
     "prettier": "^2.2.1",
     "react-scripts": "^4.0.1",
     "rimraf": "^3.0.2",
-    "semantic-release": "^17.0.8",
-    "webpack": "^4.44.2"
+    "semantic-release": "^17.0.8"
   }
 }
