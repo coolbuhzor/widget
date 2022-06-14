@@ -1,6 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
+InputField.propTypes = {
+  value: PropTypes.string,
+  label: PropTypes.string,
+  name: PropTypes.string,
+  placeholder: PropTypes.string,
+  type: PropTypes.string,
+  required: PropTypes.bool,
+  className: PropTypes.string,
+  onChange: PropTypes.func,
+  optional: PropTypes.bool,
+};
 function InputField({
   value,
   label,

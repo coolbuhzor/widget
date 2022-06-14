@@ -4,6 +4,11 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { ErrorStyled, FormRow, Form, Header1, Paragraph } from '../styles';
 import axios from 'axios';
+import PropTypes from 'prop-types';
+
+FormTwo.propTypes = {
+  setFormState: PropTypes.func,
+};
 
 const FormTwo = ({ setFormState }) => {
   const validationSchema = Yup.object().shape({

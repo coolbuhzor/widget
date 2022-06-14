@@ -4,6 +4,11 @@ import { Container, ModalContainer } from '../styles';
 import FormOne from './form-one';
 import FormThree from './form-three';
 import FormTwo from './form-two';
+import PropTypes from 'prop-types';
+
+Index.propTypes = {
+  setShowForm: PropTypes.func,
+};
 
 const Index = ({ setShowForm }) => {
   const handleClose = () => {

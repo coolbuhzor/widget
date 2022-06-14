@@ -3,9 +3,14 @@ import InputField from '../components/Input';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 // import ClipLoader from "react-spinners/ClipLoader";
-
 import { ErrorStyled, FormRow, Header1, Paragraph, Form } from '../styles';
 import axios from 'axios';
+
+import PropTypes from 'prop-types';
+
+FormOne.propTypes = {
+  setFormState: PropTypes.func,
+};
 
 const FormOne = ({ setFormState }) => {
   // const [isLoading, setIsLoading] = React.useState(false);
