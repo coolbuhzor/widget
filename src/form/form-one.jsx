@@ -2,7 +2,6 @@ import React from 'react';
 import InputField from '../components/Input';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-// import ClipLoader from "react-spinners/ClipLoader";
 import { ErrorStyled, FormRow, Header1, Paragraph, Form } from '../styles';
 import axios from 'axios';
 
@@ -13,7 +12,6 @@ FormOne.propTypes = {
 };
 
 const FormOne = ({ setFormState }) => {
-  // const [isLoading, setIsLoading] = React.useState(false);
   const validationSchema = Yup.object().shape({
     firstName: Yup.string().required('Enter Your First Name'),
     lastName: Yup.string().required('Enter Your Last Name'),
@@ -40,8 +38,6 @@ const FormOne = ({ setFormState }) => {
       .catch(function (error) {
         console.log(error);
       });
-    // setSubmitting(true);
-    // setIsLoading(true);
   };
   return (
     <>
@@ -55,7 +51,6 @@ const FormOne = ({ setFormState }) => {
           justifyContent: 'center',
         }}
       >
-        {/* </div> */}
         <Formik
           initialValues={{
             firstName: '',
@@ -159,17 +154,7 @@ const FormOne = ({ setFormState }) => {
                 </div>
               </FormRow>
               <FormRow className="credo__register-form-margin-top">
-                <button type="submit">
-                  proceed
-                  {/* {isLoading ? "proceed" : <Spinner />} */}
-                  {/* <ClipLoader
-                    color="#fff"
-                    loading={isLoading}
-                    // css={override}
-                    size={150}
-                  /> */}
-                  {/* {!isLoading && "proceed"} */}
-                </button>
+                <button type="submit">proceed</button>
               </FormRow>
             </Form>
           )}

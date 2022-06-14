@@ -14,7 +14,6 @@ const FormTwo = ({ setFormState }) => {
   const validationSchema = Yup.object().shape({
     bankName: Yup.string().required('Enter Your Bank Name'),
     accountName: Yup.string().required('Enter Your Account Name'),
-    // accountNumber: Yup.number().required("Enter Your Account Number"),
     accountNumber: Yup.string()
       .required('Enter Your Account Number')
       .min(10, 'Phone number should be 10 or 11 digits')

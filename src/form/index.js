@@ -50,6 +50,4 @@ const Index = ({ setShowForm }) => {
   );
 };
 
-// const Form = Styled.div``
-
 export default Index;

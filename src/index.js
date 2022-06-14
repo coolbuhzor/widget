@@ -19,7 +19,7 @@ import App from './App';
  * @param {Function} cb
  *   A callback that executes after the widget has been rendered.
  */
-function render(instanceId, langCode, origin, cb) {
+function render(instanceId, cb) {
   const element = document.getElementById(instanceId);
 
   ReactDOM.render(<App />, element, () => cb(element));
