@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: npm run-script build
         env:
-          PUBLIC_URL: 'https://coolbuhzor.github.io/example-payment-widget'
+          PUBLIC_URL: 'https://coolbuhzor.github.io/widget'
       - name: Deploy to GitHub Pages
         if: ${{ success() }}
         uses: crazy-max/ghaction-github-pages@v2

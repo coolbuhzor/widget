@@ -1,11 +1,11 @@
 {
-  "name": "@coolbuhzor/example-payment-widget",
+  "name": "@coolbuhzor/widget",
   "private": false,
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://coolbuhzor.github.io/example-payment-widget",
+  "homepage": "https://coolbuhzor.github.io/widget",
   "dependencies": {
     "postcss-wrap": "^0.0.4",
     "prop-types": "^15.7.2",
