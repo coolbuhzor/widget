@@ -2,28 +2,10 @@ import React from 'react';
 import { unmountComponentAtNode } from 'react-dom';
 import { render } from '@testing-library/react';
 import Input from '../components/Input';
-import { IntlProvider } from 'react-intl';
+// import { IntlProvider } from 'react-intl';
 // import i18n from '../core/bin/i18n.js';
 
 let obj = null;
-// const source = new i18n('en');
-// const locales = {
-//   ar: 'Arabic',
-//   de: 'German',
-//   es: 'Spanish',
-//   esla: 'Latin American Spanish',
-//   fr: 'French',
-//   it: 'Italian',
-//   ja: 'Japanese',
-//   ko: 'Korean',
-//   pl: 'Polish',
-//   pt: 'Portuguese',
-//   ru: 'Russian',
-//   tr: 'Turkish',
-//   zhcn: 'Simplified Chinese',
-//   zhtw: 'Traditional Chinese',
-// };
-
 describe('<Widget />', () => {
   beforeEach(() => {
     obj = document.createElement('div');
