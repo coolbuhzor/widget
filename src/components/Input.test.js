@@ -21,19 +21,3 @@ describe('<Widget />', () => {
     render(<Input element={obj} />, obj);
   });
 });
-
-// Object.keys(locales).forEach(function (key) {
-//   try {
-//     const translation = new i18n(key);
-//     let id = null;
-//     for (id in source.messages) {
-//       if (
-//         typeof translation.messages[id] !== 'string' ||
-//         translation.messages[id] === source.messages[id]
-//       ) {
-//         throw new Error('Invalid translation, ' + locales[key] + '(' + key + ')');
-//       }
-//     }
-//   } catch (error) {
-//     console.warn(error.message);
-//   }
