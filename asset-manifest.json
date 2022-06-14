@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "https://js-widgets.github.io/example-payment-widget/js/main.js",
+    "main.js.map": "https://js-widgets.github.io/example-payment-widget/js/main.js.map",
+    "index.html": "https://js-widgets.github.io/example-payment-widget/index.html",
+    "js/main.js.LICENSE.txt": "https://js-widgets.github.io/example-payment-widget/js/main.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "js/main.js"
+  ]
+}
